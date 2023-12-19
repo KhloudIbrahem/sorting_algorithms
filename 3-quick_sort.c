@@ -6,13 +6,13 @@
  * @y: second element.
  * Return: Nothing.
  */
-void swaping(int *arr, int x, int y)
+void swaping(int *arrs, int x, int y)
 {
 	int tmp1;
 
-	tmp1 = arr[x];
-	arr[x] = arr[y];
-	arr[y] = tmp1;
+	tmp1 = arrs[x];
+	arrs[x] = arrs[y];
+	arrs[y] = tmp1;
 }
 
 /**
